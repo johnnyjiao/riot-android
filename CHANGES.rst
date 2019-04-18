@@ -12,7 +12,7 @@ Improvements:
  -
 
 Other changes:
- -
+ - New FDroid mode for background notification (permanent background service need battery optimization)
 
 Bugfix:
  -
