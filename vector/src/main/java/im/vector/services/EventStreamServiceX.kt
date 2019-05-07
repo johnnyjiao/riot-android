@@ -204,7 +204,7 @@ class EventStreamServiceX : VectorService() {
 
                 //We are back in foreground, we can sync
                 mSession?.syncDelay = 0
-                mSession?.syncTimeout = 0
+                mSession?.syncTimeout = 30000
 
                 when (serviceState) {
                     EventStreamServiceX.ServiceState.INIT ->
